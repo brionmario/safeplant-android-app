@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">SafePlant</string>
+    <string name="loading">Loading</string>
+
+    <!--Login screen strings-->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Log in</string>
+    <string name="join_button_text">Join Safe Plant</string>
+    <string name="login_forgot">Forgot password?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_screen">homeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_refresh">Refresh</string>
+
+    <!--bluetooth activity strings-->
+    <string name="status">Status</string>
+    <string name="on">Turn On</string>
+    <string name="off">Turn Off</string>
+    <string name="List">List paired Devices</string>
+    <string name="Find">Search new Devices</string>
+    <string name="msg_bluetooth">Please connect your Safe Plant Wristband</string>
+
+    <!--Home strings-->
+    <string name="lbl_heartrate">HEART RATE</string>
+    <string name="tv_heartRate">VALUE</string>
+    <string name="bpm">BPM</string>
+    <string name="lbl_temp">TEMPERATURE</string>
+    <string name="lbl_pressure">BLOOD PRESSURE</string>
+    <string name="tv_temp_value">TEMP VALUE</string>
+    <string name="lbl_celsius">Celsius</string>
+    <string name="tv_pressure_status">PRESSURE</string>
+
+    <!--About and contact page-->
+    <string name="help"><![CDATA[CONTACT US]]></string>
+    <string name="name">Please Enter Your Name</string>
+    <string name="mobile">Enter Your Mobile Number</string>
+    <string name="message">Please Enter your Message</string>
+    <string name="follow">Follow us on</string>
+    <string name="safeplant">SAFE PLANT</string>
+
+    <!--Ask question strings-->
+    <string name="askquestion">ASK A QUESTION</string>
+    <string name="questionsubTitle">Please type question you are having in the text box bellow, and a doctor will get back to you ASAP.</string>
+    <string name="questionLabel">Enter your question here</string>
+    <!--Scheduler strings-->
+    <!--Home Screen Strings-->
+    <string name="createAppointment">Create Appointment</string>
+    <string name="viewEdit">View/Edit Appointments</string>
+    <string name="deleteAppointment">Delete Appointment</string>
+    <string name="moveAppointment">Move Appointment</string>
+    <string name="search">Search</string>
+
+    <!--Create Appointment Screen-->
+    <string name="save">Save</string>
+    <string name="createPageTitle">CREATE APPOINTMENT</string>
+    <string name="titleTextView">The title of the appointment</string>
+    <string name="timeTextView">The time of the appointment</string>
+    <string name="detailsTextView">The details of the appointment</string>
+    <string name="titleHint">Enter the title</string>
+    <string name="timeHint">Enter the time</string>
+    <string name="detailsHint">Description</string>
+
+    <string name="thesaurus">Thesaurus</string>
+    <string name="thesaurusSub1">Type a word in the text box bellow and press the \"THESAURUS\" button to find out the synonyms related to that word</string>
+    <string name="thesaurusSub2">Highlight a word from the details section and press \"THESAURUS\" button to see the related synonyms</string>
+    <!--delete appointment popup-->
+    <string name="option">Please select an option from bellow \n\n 1. Delete all appointments for that date \n
+    \n 2. Select appointment to delete \n\n </string>
+    <string name="deleteAll">Delete All</string>
+    <string name="selectToDelete">Select to delete</string>
+
+    <!--delete appointment page-->
+    <string name="changeAppointmentHeading">CHANGE APPOINTMENT HEADING</string>
+    <string name="searchAppointmentHelp">Please enter a keyword and press the "SEARCH" button to search relevant appointments</string>
+    <string name="searchAppointmentHint">Enter a keyword here</string>
+
+    <!--Search appointment page-->
+    <string name="searchAppointmentHeading">SEARCH APPOINTMENT</string>
+    <string name="changeAppointmentHelp">Sub Heading</string>
+    <string name="changeAppointmentHint">Enter the number here</string>
+    <string name="confirm">Button Text</string>
+
+    <!--update popup-->
+    <string name="updateHeading">Please enter the necessary updates in the text boxes bellow.</string>
+    <string name="update">Update</string>
+    <string name="updateAppointment">UPDATE APPOINTMENT</string>
+
+    <!--move popup-->
+    <string name="moveHeading">Please select the date you wish to move the appointment</string>
+    <string name="move">move</string>
+    <string name="moveAppointmentHead">MOVE APPOINTMENT</string>
+    <string name="submit">SUBMIT</string>
+
+    <!--delete popup-->
+    <string name="deleteAppointmentTitle">DELETE APPOINTMENT</string>
+
+    <!--Donate Page-->
+    <string name="donateToday">DONATE TODAY</string>
+    <string name="donatesub">Please donate using your credit card or using your Dialog mobile connection.</string>
+    <string name="cardNo">*Card Number</string>
+    <string name="expiration">*Expiration</string>
+    <string name="donate">Donate</string>
+    <string name="amount">*Amount</string>
+    <string name="donateDialogTitle">OR Donate via your Dialog GSM connection </string>
+    <string name="donateDialogButton">Donate via Dialog</string>
+    <string name="poweredBy">Powered By</string>
+
+    <!--SOS Page-->
+    <string name="sosTitle">EMERGENCY SOS</string>
+    <string name="sosHeading">Notify a relative in emergency</string>
+    <string name="sosSubHeading">When the SOS button is clicked on the Safe Plant device, the app will automatically send a SMS to a contact of your choice</string>
+    <string name="sosInputTitle">Please enter a valid mobile number</string>
+    <string name="sosInputDefault">You haven\'t selected any contact</string>
+    <string name="sosButtonText">ADD NUMBER</string>
+
+    <!--Feedback Page-->
+    <string name="doctorsFeedback">DOCTORS\' FEEDBACK</string>
+    <string name="feedbackHeading">Please check the following feedback and take necessary precautions</string>
+
+    <!-- Prescriptions page -->
+    <string name="prescriptionTitle">SAVE PRESCRIPTIONS</string>
+    <string name="prescriptionHeading">Keep your prescriptions safe</string>
+    <string name="prescriptionSubHeading">Safe Plant will automatically backup your prescriptions. Just take a snap and press upload</string>
+    <string name="upload">Upload</string>
+    <!-- Reports -->
+    <string name="bloodReportTitle">FULL BLOOD COUNT</string>
+    <string name="wbc">WBC Count</string>
+    <string name="rbc">RBC Count</string>
+    <string name="cellVolume">Packed Cell Volume</string>
+    <string name="hemoglobinConcentration">Hemoglobin Concentration</string>
+    <string name="corpuscularVolume">Mean Corpuscular Volume</string>
+    <string name="corpuscularHemoglobin">Mean Corpuscular Hemoglobin</string>
+    <string name="corpuscularHemoglobinConcentration">Mean Corpuscular Hemoglobin Concentration</string>
+    <string name="platelets">Platelet Count</string>
+
+    <string name="urineReportTitle">URINE FULL REPORT</string>
+    <string name="macroscopy">MACROSCOPY</string>
+    <string name="microscopy">MICROSCOPY</string>
+    <string name="appearence">Appearence</string>
+    <string name="ph">pH</string>
+    <string name="sp">SP.Gravity</string>
+    <string name="protein">Protein</string>
+    <string name="sugar">Sugar</string>
+    <string name="redcells">Red Cells</string>
+    <string name="puscells">Puss Cells</string>
+    <string name="ephicells">Ephi Cells</string>
+    <string name="casts">Casts</string>
+    <string name="crystals">Crystals</string>
+    <string name="bile">Bile Segments</string>
+    <string name="others">Others</string>
+
+    <string name="sugarReportsTitle">FASTING BLOOD SUGAR</string>
+    <string name="fbs">FBS</string>
+
+    <string name="pressureReportTitle">BLOOD PRESSURE</string>
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+
+</resources>
