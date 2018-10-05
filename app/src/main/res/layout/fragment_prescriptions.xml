@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apareciumlabs.brionsilva.safeplant.PrescriptionsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/prescriptionTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/prescriptionTitle"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/prescriptionHeadingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prescriptionIV"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="@string/prescriptionHeading"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+             />
+
+        <ImageView
+            android:id="@+id/prescriptionIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/prescription_illustration"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/prescriptionTitleTV"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/prescriptionSubHeadingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prescriptionHeadingTV"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:textAlignment="center"
+            android:text="@string/prescriptionSubHeading"
+
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+             />
+
+        <Button
+            android:id="@+id/savePrescriptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:background="@color/transparentGrey"
+            android:text="@string/upload"
+            android:layout_below="@+id/prescriptionSubHeadingTV"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

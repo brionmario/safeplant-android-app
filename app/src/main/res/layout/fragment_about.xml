@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apareciumlabs.brionsilva.safeplant.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.brionsilva.raven.AboutPage"
+        android:id="@+id/ace">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/safeplant"
+            android:id="@+id/mainView"
+            android:layout_marginTop="85dp"
+            android:elegantTextHeight="false"
+            android:focusableInTouchMode="false"
+            android:textIsSelectable="false"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#525252"
+            android:shadowRadius="15"
+            android:shadowDx="3"
+            android:shadowDy="4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Version 1.0"
+            android:id="@+id/textView"
+            android:textColor="#d5d5d5"
+            android:layout_below="@+id/mainView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="©2017"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_above="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:textSize="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="All rights reserved"
+            android:id="@+id/textView3"
+            android:textSize="14dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="94dp">
+
+            <ImageButton
+                android:background="@drawable/twitterabout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/twitterabout"
+                android:onClick="openTwitter"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2"/>
+
+            <ImageButton
+                android:background="@drawable/fbabout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/fbabout"
+                android:layout_alignTop="@+id/ytabout"
+                android:layout_toRightOf="@+id/textView2"
+                android:layout_toEndOf="@+id/textView2"
+                android:onClick="openFB"/>
+
+            <ImageButton
+                android:background="@drawable/youtubeabout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ytabout"
+                android:onClick="openYoutube"
+                android:layout_alignTop="@+id/twitterabout"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3" />
+
+            <ImageButton
+                android:background="@drawable/gabout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/gabout"
+                android:layout_alignTop="@+id/fbabout"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:onClick="openGoogle"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/follow"
+            android:id="@+id/textView4"
+            android:shadowColor="#525252"
+            android:shadowRadius="10"
+            android:shadowDx="3"
+            android:shadowDy="2"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
